@@ -1,0 +1,31 @@
+{
+  "name": "pull-msgpack",
+  "version": "0.0.1",
+  "description": "MessagePack as pull-stream",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/alligator-io/pull-msgpack.git"
+  },
+  "dependencies": {
+    "msgpack": "^0.2.3"
+  },
+  "devDependencies": {
+    "pull-stream": "~2.20.1",
+    "tape": "^2.13.3"
+  },
+  "keywords": [
+    "msgpack",
+    "pull-stream",
+    "streams"
+  ],
+  "author": "Markus Wunderlin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alligator-io/pull-msgpack/issues"
+  },
+  "homepage": "https://github.com/alligator-io/pull-msgpack"
+}
